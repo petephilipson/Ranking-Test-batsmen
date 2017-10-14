@@ -1,4 +1,3 @@
-# File created 09/08/17 for quadratic ageing (LN prior for curvature)
 batFit <- function(data, niter, thin, burnin, mudecpriors = NULL, sigpriors = NULL, sigdelpriors = NULL, alphapriors = NULL, hetpriors = NULL, pizippriors = NULL, corner1 = FALSE, inits = NULL, assoc_del = 1)
 {
 library(MASS)
